@@ -1,0 +1,398 @@
+﻿/*
+    colors:
+    top purple: #87509c
+        top button: rgb(235, 125, 75);
+        top button hover: #643a79
+    main-contetnt-color-1: rgb(23, 194, 164);
+    main-contetnt-color-2: rgb(231, 241, 248);
+    main-contetnt-color-3: rgb(255, 255, 255);
+    main-contetnt-color-4: rgb(255, 221, 153);
+    main-contetnt-color-5: rgb(215, 70, 128);
+    main-contetnt-color-6: rgb(60, 84, 153);
+        send-message-button-6: #30bae7;
+        send-message-button-6 hover: #299ec5;
+    footer-bkg-color: rgb(52, 75, 142);
+
+*/
+* {
+    box-sizing: border-box;
+}
+.body-style {
+    margin: 0px;
+    //font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+/*Стили навигатора (начало)*/
+.main-Welcome {
+    width: 100%;
+    background-color: #87509c;
+    float:left;
+}
+.Welcome-content{
+    max-width:1120px;
+    min-width: 250px;
+    padding:10px;
+    margin:auto;
+    //background-color: rgba(55, 255, 255, 0.1);  
+}
+.Welcome-logo{
+    text-align:center;
+    //height:50px;
+}
+ul.Welcome-list-r{
+    padding: 0px 20px 0px 20px;
+    float:right;
+}
+ul.Welcome-list-r li {
+    display: inline;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    color:white;
+}
+.Welcome-list-r li a {
+    color: white;
+}
+ul.Welcome-list-r li a:hover {
+    background: #643a79;
+    padding: 5px 15px 5px 15px;
+    margin: -5px -15px -5px -15px;
+    border-radius: 4px;
+    text-decoration: none;
+    //text-shadow: black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px;
+}
+.work-with-us-button {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 80px 20px 80px;
+    background: rgb(235, 125, 75);
+    color: white;
+    border-bottom:6px solid #c86a40;
+    border-radius: 5px;
+}
+    .work-with-us-button:hover {
+        background: #30bae7;
+        border-bottom:6px solid #299ec5;
+        text-decoration: none;
+        color: white; 
+    }
+
+.Welcome-text{
+    padding: 100px 20px 100px 20px;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    text-align:center;
+    letter-spacing:1px;
+}
+.p30-top-bot{
+    padding: 30px 0px 30px 0px;
+}
+.p70-top-bot{
+    padding: 80px 30px 0px 30px;
+}
+
+/*Стили навигатора (конец)*/
+
+/*Прочее (начало)*/
+
+/*Вернуться к началу*/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(39, 58, 113, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
+
+.main-content-h1-white{
+    font-size: 38px;
+    font-weight: 900;
+    color:white;
+    letter-spacing:5px;
+}
+.main-content-h2-white{
+    font-size: 20px;
+    font-weight: 800;
+    color:white;
+    letter-spacing:1px;
+}
+.main-content-p-white{
+    font-size: 18px;
+    color:white;
+}
+.main-content-p-white-small{
+    font-size: 16px;
+    color:white;
+    font-weight:300;
+}
+.main-content-h1-black{
+    font-size: 38px;
+    font-weight: bolder;
+    color:#3c4761;
+    letter-spacing:5px;
+}
+.main-content-h2-black{
+    font-size: 20px;
+    font-weight: 800;
+    color:#3c4761;
+    letter-spacing:1px;
+}
+.main-content-p-black{
+    font-size: 18px;
+    color:#3c4761;
+}
+.main-content-p-black-small{
+    font-size: 16px;
+    color:#3c4761;
+    font-weight:300;
+}
+/*Прочее (конец)*/
+
+/*Стили контента (начало)*/
+.main-content{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    float:left;
+
+}
+.content {
+    //background-color: rgba(55, 255, 255, 0.3);  
+    max-width:1120px;
+    min-width: 250px;
+    padding:10px;
+    margin: auto;
+    text-align:center;
+    //position: relative;
+    //overflow:hidden;
+    height:100%;
+}
+
+
+
+.main-content-1-services{
+background-color: rgb(23, 194, 164);
+min-height:747px;
+}
+
+.main-content-2-team{
+background-color: rgb(231, 241, 248);
+min-height:915px;
+}
+
+    .content-2-img{
+        border:10px solid grey;
+        border-radius:100px;
+    }
+    .design {
+	color: #30bae7;
+	padding: 10px;
+    }
+    .social i {
+	font-size: 0.8em;
+	background: #ccc;
+	padding: 10px;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	color: #fff;
+	margin: 3px auto;
+    }
+    .social i:hover {
+        background: #4c66a4;
+	    color: #fff;	
+    }
+
+
+    .tw-circle-chart {
+	position: relative;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 20px;
+    }
+    .tw-circle-chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+    }
+
+
+.main-content-3-skills{
+background-color: rgb(255, 255, 255);
+min-height:655px;
+}
+
+.main-content-4-portfolio{
+background-color: rgb(255, 221, 153);
+min-height:1423px;
+}
+.portfolio-button {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 40px 10px 40px;
+    background: #ebc985;
+    color: #3c4761;
+    border-radius: 5px;
+}
+    .portfolio-button:hover {
+        background: white;
+        text-decoration: none;
+        color: #3c4761; 
+    }
+
+
+.main-content-5-testimonials{
+background-color: rgb(215, 70, 128);
+min-height:895px;
+}
+
+.p30-all{
+    padding: 70px 0px 70px 0px;
+}
+
+
+.main-content-6-getintouch{
+background-color: rgb(60, 84, 153);
+min-height:819px;
+}
+
+.Line-black {
+  color: #3c4761;
+  font-size: 50px;
+  font-weight:900;
+  letter-spacing:-6px;
+  margin-bottom:-15px;
+  margin-top:-25px;
+}
+.Line-white {
+  color: white;
+  font-size: 50px;
+  font-weight:900;
+  letter-spacing:-6px;
+  margin-bottom:-15px;
+  margin-top:-25px;
+}
+
+.form-control-6-div {
+        padding:10px;
+}
+.form-control-6{
+    font-size: 18px;
+    font-weight:500;
+    color: white;
+    border:unset;
+    background:#273a71;
+    padding:25px;
+}
+
+input[type="email"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, textarea[type="text"]::-webkit-input-placeholder {
+   color: rgb(210, 210, 210);
+}
+input[type="email"]:focus::-webkit-input-placeholder, input[type="text"]:focus::-webkit-input-placeholder, textarea[type="text"]:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+
+.send-message-div-6
+{
+    padding: 100px 0px 50px 0px;
+}
+.send-message-button-6 {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 20px 80px 20px 80px;
+    background: #30bae7;
+    color: white;
+    border-bottom:6px solid #299ec5;
+    border-radius: 5px;
+}
+    .send-message-button-6:hover {
+        background: white;
+        color: black;
+        border-bottom:6px solid rgb(210, 210, 210);
+        text-decoration: none;
+    }
+
+/*Стили контента (конец)*/
+
+
+/*Стили футена (начало)*/
+
+
+
+.footer-style {
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    background-color: rgb(52, 75, 142);
+    min-height:120px;
+    clear: both;
+    color: white;
+    text-align:center;
+}
+.main-footer{
+    //background-color: rgba(55, 255, 255, 0.1);  
+    max-width:1120px;
+    min-width: 250px;
+    padding: 40px 10px 0px 10px ;
+    margin:auto;
+    text-align:center;
+}
+
+.footer-list-left li {
+    color: white;
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 30px 0px 30px ;
+    margin: auto;
+}
+
+    .footer-list-left li a {
+        color: white;
+    }
+
+        .footer-list-left li a:hover {
+            color: #30bae7;
+            text-decoration: none;
+        }
+
+
+
+/*Стили футена (конец)*/
