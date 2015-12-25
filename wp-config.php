@@ -23,13 +23,13 @@
 define('DB_NAME', 'foxterar_woocom');
 
 /** MySQL database username */
-define('DB_USER', 'foxterar_woocom');
+define('DB_USER', 'mysql');
 
 /** MySQL database password */
-define('DB_PASSWORD', '5a6lvpr6');
+define('DB_PASSWORD', 'mysql');
 
 /** MySQL hostname */
-define('DB_HOST', 'foxterar.mysql.ukraine.com.ua');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
