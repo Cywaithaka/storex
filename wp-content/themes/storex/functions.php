@@ -110,6 +110,7 @@ function storex_widgets_init() {
 }
 add_action( 'widgets_init', 'storex_widgets_init' );
 
+
 /**
  * Enqueue scripts and styles.
  */

@@ -69,8 +69,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="site-logo col-md-2 col-sm-32 col-xs-2">
-                            <a href="#" rel="home" title="StoreX">
-                                <img src="img/Storex131_03@2x.png" alt="Just another WordPress site">
+                            <a href="<?php echo site_url(); ?>" rel="home" title="StoreX">
+                                <img <?php echo do_shortcode('[link src="img/Storex131_03@2x.png"]') ?>
+                                    alt="Just another WordPress site">
                             </a>
                         </div>
                         <div class="aside-logo-container col-md-10 col-sm-10 col-xs-10">
@@ -81,16 +82,16 @@
                                         <nav class="primary-nav">
                                             <div class="wr-megamenu-container jsn-bootstrap3 primary-nav_2580">
                                                 <ul id="wr-megamenu-12" class="wr-mega-menu nav-menu">
-
                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-70 current_page_item wr-megamenu-item level-0 menu-default">
-                                                        <a href="#" class="menu-item-link">
+                                                        <a href="<?php echo site_url(); ?>" class="menu-item-link">
                                                                     <span class="menu_title">
                                                                         <i class="fa fa-home"></i>
                                                                     </span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page wr-megamenu-item level-0 mega-item wr-megamenu-fixed">
-                                                        <a href="#" class="menu-item-link">
+                                                        <a href="<?php echo site_url() . '/shop/'; ?>"
+                                                           class="menu-item-link">
                                                             <span class="menu_title">SHOP</span>
                                                         </a>
                                                     </li>
@@ -128,75 +129,84 @@
                                     <div class="hgroup-sidebar">
                                         <div id="pt_search_widget-2" class="widget widget_pt_search_widget">
                                             <div class="search-wrapper">
-                                                <div id="show-search" onClick="hide_show();return false;" return false" class="show-search" title="Click to show search-field">
-                                                <i class="blue-bkg-fa-search"></i>
-                                                <i class="fa fa-search"></i>
-                                            </div>
-                                            <script type="text/javascript">
-                                                function hide_show() {
-                                                    //Получаем стиль блока с айди div (для изменения)
-                                                    var div = document.getElementById("pt-searchform-container").style.display;
-                                                    if (div == "") div = "block";
-                                                    //Если блок не отображается
-                                                    if (div == "none") {
-                                                        div = "block";
+                                                <div id="show-search" onClick="hide_show();return false;"
+                                                     class="show-search" title="Click to show search-field">
+                                                    <i class="blue-bkg-fa-search"></i>
+                                                    <i class="fa fa-search"></i>
+                                                </div>
+                                                <script type="text/javascript">
+                                                    function hide_show() {
+                                                        //Получаем стиль блока с айди div (для изменения)
+                                                        var div = document.getElementById("pt-searchform-container").style.display;
+                                                        if (div == "") div = "block";
+                                                        //Если блок не отображается
+                                                        if (div == "none") {
+                                                            div = "block";
+                                                        }
+                                                        //или наоборот
+                                                        else {
+                                                            div = "none";
+                                                        }
+                                                        //Теперь меняем стили у ссылки
+                                                        //и блока который хотим скрыть или показать
+                                                        document.getElementById("pt-searchform-container").style.display = div;
                                                     }
-                                                    //или наоборот
-                                                    else {
-                                                        div = "none";
-                                                    }
-                                                    //Теперь меняем стили у ссылки
-                                                    //и блока который хотим скрыть или показать
-                                                    document.getElementById("pt-searchform-container").style.display = div;
-                                                }
-                                            </script>
+                                                </script>
 
-                                            <div id="pt-searchform-container" style="width: 350px; display:none;" class="open">
-                                                <form class="pt-searchform" method="get" action="#">
-                                                    <input id="s" name="s" type="text" class="searchtext" value="" title="Text here..." placeholder="Text here..." tabindex="1">
-                                                    <input id="searchsubmit" type="submit" class="search-button" value="Search" title="Click to search" tabindex="2">
-                                                </form>
+                                                <div id="pt-searchform-container" style="width: 350px; display:none;"
+                                                     class="open">
+                                                    <form class="pt-searchform" method="get" action="#">
+                                                        <input id="s" name="s" type="text" class="searchtext" value=""
+                                                               title="Text here..." placeholder="Text here..."
+                                                               tabindex="1">
+                                                        <input id="searchsubmit" type="submit" class="search-button"
+                                                               value="Search" title="Click to search" tabindex="2">
+                                                    </form>
+                                                </div>
                                             </div>
+                                            <script type="text/javascript"></script>
                                         </div>
-                                        <script type="text/javascript"></script>
-                                    </div>
-                                    <div id="woocommerce_widget_cart-3" class="widget woocommerce widget_shopping_cart">
-                                        <div class="inner-cart-content">
-                                            <div class="heading">
-                                                <div class="cart-icon">
-                                                    <i class="blue-bkg-fa-cart"></i>
-                                                    <i class="fa fa-shopping-cart"></i>
-                                                </div>
-                                                <div class="cart-widget-title">
-                                                    Shoping cart
-                                                </div>
+                                        <div id="woocommerce_widget_cart-3"
+                                             class="widget woocommerce widget_shopping_cart">
+                                            <div class="inner-cart-content">
+                                                <div class="heading">
+                                                    <a href="<?php echo site_url() . '/cart/' ?>">
+                                                        <div class="cart-icon" title="Shopping cart">
+                                                            <i class="blue-bkg-fa-cart"></i>
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                        </div>
+                                                    </a>
+
+                                                    <div class="cart-widget-title">
+                                                        Shoping cart
+                                                    </div>
                                                             <span class="count-icon">
                                                                 0
                                                             </span>
-                                                <a class="cart-contents" href="#" title="View your shopping cart">
-                                                    0 items -
+                                                    <a class="cart-contents" href="#" title="View your shopping cart">
+                                                        0 items -
                                                                 <span class="amount">
                                                                     £0.00
                                                                 </span>
-                                                </a>
-                                            </div>
-                                            <div class="widget_shopping_cart_content" >
-                                                <ul class="cart_list product_list_widget ">
-                                                    <li class="empty">
-                                                        No products in the cart.
-                                                    </li>
-                                                </ul><!-- end product list -->
+                                                    </a>
+                                                </div>
+                                                <div class="widget_shopping_cart_content">
+                                                    <ul class="cart_list product_list_widget ">
+                                                        <li class="empty">
+                                                            No products in the cart.
+                                                        </li>
+                                                    </ul><!-- end product list -->
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </header>
 </div>
 <!-- end of Logo & hgroup -->

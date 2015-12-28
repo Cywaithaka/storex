@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af4f06ce-0684-4e51-98f9-ea3802f02bef" name="Default" comment="Рефакторинг в functions.php">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/storex/inc/scripts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/storex/inc/shortcodes.php" />
+    <list default="true" id="af4f06ce-0684-4e51-98f9-ea3802f02bef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/storex/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/storex/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/storex/template-parts/content-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/storex/template-parts/content-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/storex/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/storex/header.php" />
     </list>
     <ignored path="storex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,33 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.464986">
-              <caret line="92" column="58" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/inc/scripts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
               <folding>
-                <element signature="e#6#108#0#PHP" expanded="true" />
+                <marker date="1451050137263" expanded="false" signature="9:18" placeholder=" storex functions and definitions. ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shortcodes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/inc/shortcodes.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.34767026">
+              <caret line="92" column="89" selection-start-line="92" selection-start-column="85" selection-end-line="92" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -75,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/storex/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/storex/template-parts/content-home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/storex/index.php" />
         <option value="$USER_HOME$/Desktop/MyStorePrototype/index.html" />
@@ -95,7 +82,9 @@
         <option value="$PROJECT_DIR$/../wordpress/wp-content/themes/storefront/inc/functions/extras.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/storex/inc/shortcodes.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/storex/inc/scripts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/storex/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/storex/functions.php" />
+        <option value="$USER_HOME$/Desktop/home.php" />
       </list>
     </option>
   </component>
@@ -212,39 +201,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress/wp-content/themes/storefront" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -312,16 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1450948849047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Рефакторинг в functions.php">
+      <created>1451036985242</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1451036985242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2246596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -329,12 +297,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -363,25 +332,17 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="181" column="10" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
           <folding>
-            <element signature="e#6#342#0#PHP" expanded="false" />
+            <marker date="1451050137263" expanded="false" signature="9:18" placeholder=" storex functions and definitions. ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -389,8 +350,34 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="181" column="10" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
+          <folding>
+            <marker date="1451050137263" expanded="false" signature="9:18" placeholder=" storex functions and definitions. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1451050137263" expanded="false" signature="9:18" placeholder=" storex functions and definitions. ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -405,7 +392,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
-          <folding />
+          <folding>
+            <marker date="1451050137263" expanded="false" signature="9:18" placeholder=" storex functions and definitions. ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -420,14 +409,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="120" column="91" selection-start-line="120" selection-start-column="91" selection-end-line="120" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9454546">
-          <caret line="101" column="81" selection-start-line="101" selection-start-column="81" selection-end-line="101" selection-end-column="81" />
+          <folding>
+            <marker date="1451050137263" expanded="false" signature="9:18" placeholder=" storex functions and definitions. ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03046595">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -485,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57271093">
           <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,32 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5637343">
           <caret line="559" column="29" selection-start-line="559" selection-start-column="29" selection-end-line="559" selection-end-column="29" />
-          <folding>
-            <marker date="1450792098456" expanded="true" signature="10588:10891" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="10624:10880" placeholder="{...}" />
-            <marker date="1450792098456" expanded="true" signature="10674:10876" placeholder="{&quot;loop&quot;: true...}" />
-            <marker date="1450792098456" expanded="true" signature="11476:12354" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="11513:12343" placeholder="{...}" />
-            <marker date="1450792098456" expanded="true" signature="11542:12309" placeholder="{...}" />
-            <marker date="1450792098456" expanded="true" signature="11644:12195" placeholder="{&quot;zoom&quot;: 17...}" />
-            <marker date="1450792098456" expanded="true" signature="12476:12853" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="12512:12842" placeholder="{...}" />
-            <marker date="1450792098456" expanded="true" signature="12659:12838" placeholder="{...}" />
-            <marker date="1450792098456" expanded="true" signature="16420:16875" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="16446:16526" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="16552:16852" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="16614:16739" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="16762:16786" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="17272:17766" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="17298:17378" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="17404:17743" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="17474:17630" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="17653:17677" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="17987:18291" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="18013:18088" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="18114:18268" placeholder="..." />
-            <marker date="1450792098456" expanded="true" signature="18178:18202" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15260324">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.076923">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#6#342#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27468583">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.615385">
           <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,14 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45075756">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <marker date="1450855165310" expanded="true" signature="17068:17172" placeholder="SELECT meta_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1450855165310" expanded="true" signature="18230:18334" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1450855165310" expanded="true" signature="38103:38172" placeholder="SELECT optio..${$wpdb-&gt;options}..." />
-            <marker date="1450855165310" expanded="true" signature="127123:127171" placeholder="SELECT id FR..${{$wpdb-&gt;site}..." />
-            <marker date="1450855165310" expanded="true" signature="135560:135656" placeholder="SELECT post_..${$wpdb-&gt;postmeta}..." />
-            <marker date="1450855165310" expanded="true" signature="136119:136221" placeholder="SELECT comme..${$wpdb-&gt;commentmeta}..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,7 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51166964">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3357271">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4615386">
           <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54937166">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,32 +552,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7468581">
           <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/inc/shortcodes.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/inc/jetpack.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="-0.18312387">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/inc/scripts.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/inc/custom-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <element signature="e#6#108#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.053859964">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.464986">
-          <caret line="92" column="58" selection-start-line="92" selection-start-column="58" selection-end-line="92" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="3" selection-start-line="115" selection-start-column="3" selection-end-line="115" selection-end-column="3" />
+          <folding>
+            <marker date="1451050137263" expanded="false" signature="9:18" placeholder=" storex functions and definitions. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/storex/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34767026">
+          <caret line="92" column="89" selection-start-line="92" selection-start-column="85" selection-end-line="92" selection-end-column="89" />
           <folding />
         </state>
       </provider>
